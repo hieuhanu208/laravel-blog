@@ -22,7 +22,7 @@ namespace :docker do
     on roles(:app) do
       within release_path do
         cmd = 'docker ps -a -q'
-        execute :docker, :stop, '$(docker ps -a -q)' if capture(cmd) != ''
+        execute :docker, :stop, "$(#{cmd})" if capture(cmd) != ''
       end
     end
   end

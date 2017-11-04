@@ -5,7 +5,7 @@ set :application, 'laravel-blog'
 set :repo_url, 'git@github.com:guillaumebriday/laravel-blog.git'
 
 # Default branch is :master
-set :branch, :master
+set :branch, :production
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name

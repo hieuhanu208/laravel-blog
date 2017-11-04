@@ -4,7 +4,6 @@ namespace :laravel do
     on roles(:app) do
       within release_path do
         execute 'docker-compose' , :run, 'blog-server', 'php artisan migrate --force'
-        execute 'docker-compose' , :run, 'blog-server', 'php artisan migrate --force'
       end
     end
   end
