@@ -19,7 +19,7 @@
         "laravel-mix": "^1.4.5",
         "popper.js": "^1.11.0",
         "pusher-js": "^4.2.1",
-        "trumbowyg": "^2.8.0",
+        "trumbowyg": "^2.23.0",
         "vue": "^2.4.4"
     }
 }
